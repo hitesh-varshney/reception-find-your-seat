@@ -55,18 +55,18 @@
     text-align:center;margin:0 0 12px;font-weight:700}
   .mates ul{list-style:none;margin:0;padding:0}
   .mates li{font-size:14px;padding:6px 2px;text-align:center}
-  .mapwrap{margin-top:24px}
-  .maptitle{text-align:center;font-size:12px;text-transform:uppercase;letter-spacing:2px;color:var(--muted);margin-bottom:10px}
+  .mapwrap{margin-top:30px}
+  .maptitle{text-align:center;font-size:12px;text-transform:uppercase;letter-spacing:1.5px;color:var(--ink);font-weight:700;margin-bottom:4px}
   svg{width:100%;height:auto;display:block}
   .tnode circle,.tnode rect{fill:#fff;stroke:var(--line);stroke-width:1}
   .tnode text{fill:var(--ink);font-size:13px;font-weight:500;text-anchor:middle;font-family:var(--font-body)}
-  .tnode text.maphead{font-size:8px;letter-spacing:2px;font-weight:500}
+  .tnode text.maphead{font-size:9px;letter-spacing:2px;font-weight:500}
   .tnode.hl circle,.tnode.hl rect{fill:var(--hl);stroke:var(--hl-stroke);stroke-width:2}
   .tnode.hl text{fill:#fff}
   .df{fill:none;stroke:var(--line);stroke-width:1;stroke-dasharray:4 4}
   .dlabel{fill:var(--ink);font-size:9px;letter-spacing:2px;text-anchor:middle}
   .djbox{fill:#fff;stroke:var(--line);stroke-width:1}
-  .djlabel{fill:var(--ink);font-size:8px;letter-spacing:2px;text-anchor:middle}
+  .djlabel{fill:var(--ink);font-size:9px;letter-spacing:2px;text-anchor:middle}
   .foot{font-family:'Lato','Segoe UI',sans-serif;text-align:center;font-size:13px;color:var(--muted);margin-top:28px;line-height:1.7}
 </style>
 </head>
@@ -154,7 +154,7 @@
       mates.forEach(n=> h+='<li>'+n+'</li>');
       h+='</ul></div>';
     }
-    h+='<div class="mapwrap">'+buildMap(tid)+'</div>';
+    h+='<div class="mapwrap"><div class="maptitle">Floor Map</div>'+buildMap(tid)+'</div>';
     h+='</div>';
     panel.innerHTML=h;
     foot.style.display='none';
