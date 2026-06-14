@@ -1,32 +1,32 @@
 window.SEATING_DATA = {
- "updated": "June 2026",
+ "updated": "June 13, 2026",
  "tables": {
   "head": {
    "label": "Head Table",
    "guests": [
-    "Andrew Karaki",
-    "Ari Alexanian",
-    "Emily Dixon",
-    "Rahul Gangwani",
     "Claudia Ellebrecht",
     "Justin Seeke",
     "Vinodhini Kesavan",
     "Samantha Schad",
     "Hitesh Varshney",
-    "Tiffany Louie"
+    "Tiffany Louie",
+    "Andrew Karaki",
+    "Ari Alexanian",
+    "Emily Dixon",
+    "Rahul Gangwani"
    ]
   },
   "L1": {
    "label": "9",
    "guests": [
-    "Michelle Gresko",
-    "Zak Kolar",
     "Steve Sismelich",
     "Megan Barker",
     "Zach Lugo",
     "Matt McEwen",
     "John Jackson",
-    "Zaya Amgaabaatar"
+    "Zaya Amgaabaatar",
+    "Michelle Gresko",
+    "Zak Kolar"
    ]
   },
   "L2": {
@@ -37,16 +37,15 @@ window.SEATING_DATA = {
     "Brandon Lau",
     "Darren Lau",
     "Jane Szymanski",
-    "Mitchell Yau",
-    "Ryan Yau",
     "Karolyn Ruffino",
-    "Keyshawn Ebanks"
+    "Keyshawn Ebanks",
+    "Mitchell Yau",
+    "Ryan Yau"
    ]
   },
   "L3": {
    "label": "13",
    "guests": [
-    "Justin Louie",
     "Janice Louie",
     "John DiChiara",
     "Silas DiChiara",
@@ -56,7 +55,8 @@ window.SEATING_DATA = {
     "Olivia Louie",
     "Jireh Louie",
     "Chris Hui",
-    "Naomi Louie"
+    "Naomi Louie",
+    "Justin Louie"
    ]
   },
   "L4": {
@@ -74,8 +74,6 @@ window.SEATING_DATA = {
   "L5": {
    "label": "17",
    "guests": [
-    "Calvin Nguyen",
-    "Sanjeev Saravanakumar",
     "Blake Rankin",
     "Megan Cicotte",
     "Emily Yoshikawa",
@@ -83,13 +81,14 @@ window.SEATING_DATA = {
     "Elsa Nico",
     "Mike Briggs",
     "Aditya Kakkar",
-    "Sayali Jadhav"
+    "Sayali Jadhav",
+    "Calvin Nguyen",
+    "Sanjeev Saravanakumar"
    ]
   },
   "L6": {
    "label": "1",
    "guests": [
-    "Lisa Yuk Louie",
     "Howard Louie",
     "Kelly Louie",
     "Jeremy Louie",
@@ -99,13 +98,13 @@ window.SEATING_DATA = {
     "Victor Louie",
     "Waiyi Louie",
     "Pauline Chang",
-    "Philip Dea"
+    "Philip Dea",
+    "Lisa Yuk Louie"
    ]
   },
   "L7": {
    "label": "3",
    "guests": [
-    "Elaine Dea",
     "Bonnie Tse",
     "Ed Fan",
     "Diane Tse",
@@ -114,7 +113,8 @@ window.SEATING_DATA = {
     "Philip Dea Jr",
     "Elaine Tse",
     "Michael Tse",
-    "Stephen Tse"
+    "Stephen Tse",
+    "Elaine Dea"
    ]
   },
   "L8": {
@@ -132,8 +132,8 @@ window.SEATING_DATA = {
   "L9": {
    "label": "7",
    "guests": [
-    "Doug Heck",
-    "Nancy Heck",
+    "Anand Balsekar",
+    "Leena Balsekar",
     "Alka Gupta",
     "Pankaj Gupta",
     "Bhanu Gupta",
@@ -181,6 +181,8 @@ window.SEATING_DATA = {
     "Meenal Varshney",
     "Kaushal Kishore",
     "Rekha Kishore",
+    "Girija Trivedi",
+    "Rahul Trivedi",
     "Ratish Varshney",
     "Sadhana Varshney",
     "Deeksha Varshney",
@@ -190,15 +192,13 @@ window.SEATING_DATA = {
   "R4": {
    "label": "8",
    "guests": [
+    "Amol Palekar",
+    "Simpal Palekar",
+    "Doug Heck",
+    "Nancy Heck",
     "Hari Margabandhu",
     "Inderjit Gurtatta",
     "Rani Gurtatta",
-    "Hemantini Patel",
-    "Nitin Patel",
-    "Pradeep Batchu",
-    "Siri Batchu",
-    "Girija Trivedi",
-    "Rahul Trivedi",
     "Rahul Meaheshwari",
     "Shalini Meaheshwari"
    ]
@@ -206,13 +206,13 @@ window.SEATING_DATA = {
   "R5": {
    "label": "10",
    "guests": [
-    "Cary Zhu",
-    "Matt Kazmierski",
     "Amber Ulasich",
     "Andrew Atchison",
     "Renee Seeke",
     "Nic Bartlett",
-    "Karthik Thadasina"
+    "Karthik Thadasina",
+    "Cary Zhu",
+    "Matt Kazmierski"
    ]
   },
   "R6": {
@@ -259,16 +259,16 @@ window.SEATING_DATA = {
   "R9": {
    "label": "18",
    "guests": [
-    "Amol Palekar",
-    "Simpal Palekar",
-    "Anand Balsekar",
-    "Leena Balsekar",
     "Gulab Pal",
     "Zirawati Pal",
     "Anu Reddy",
     "Jagadish Reddy",
+    "Hemantini Patel",
+    "Nitin Patel",
     "Mona Verma",
-    "Pavan Verma"
+    "Pavan Verma",
+    "Pradeep Batchu",
+    "Siri Batchu"
    ]
   }
  }
