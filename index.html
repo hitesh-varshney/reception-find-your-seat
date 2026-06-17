@@ -6,10 +6,10 @@
 <title>Find Your Seat · Tiffany & Hitesh</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Allura&family=Jost:wght@400;500&family=Lato:wght@400;700&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Jost:wght@400;500&family=Lato:wght@400;700&display=swap" rel="stylesheet">
 <style>
   :root{
-    --font-script:'Allura', cursive;
+    --font-script:'Style Script', cursive;
     --font-body:'Jost','Segoe UI',system-ui,sans-serif;
     --paper:#FBF5F2; --card:#ffffff; --ink:#47463e; --muted:#a2938b; --line:#eaddd7;
     --rose:#cc918b; --rose-deep:#a96a64; --rose-soft:#f4e2de;
@@ -20,13 +20,12 @@
   *{box-sizing:border-box}
   html,body{margin:0}
   body{font-family:var(--font-body);color:var(--ink);background:var(--paper);
-    -webkit-text-size-adjust:100%;min-height:100vh;display:flex}
-  .wrap{width:100%;max-width:440px;margin:auto;padding:34px 18px 50px;
+    -webkit-text-size-adjust:100%;min-height:100vh}
+  .wrap{width:100%;max-width:440px;margin:0 auto;padding:20vh 18px 50px;
     display:flex;flex-direction:column;align-items:center;text-align:center}
   .top{margin-bottom:18px}
-  .top h1{font-family:var(--font-script);font-weight:400;color:var(--ink);
-    font-size:50px;line-height:1.02;margin:0 0 6px;letter-spacing:.5px}
-  .top .date{font-family:var(--font-script);font-size:25px;color:var(--ink);line-height:1}
+  .top .name-img{display:block;width:92%;max-width:380px;height:auto;margin:0 auto 8px}
+  .top .date-img{display:block;width:56%;max-width:200px;height:auto;margin:0 auto}
   .search{position:relative;width:100%;margin:10px 0 0}
   .search input{width:100%;padding:15px 16px;font-size:17px;border:1px solid var(--line);
     border-radius:13px;background:var(--card);color:var(--ink);outline:none;font-family:'Lato','Segoe UI',sans-serif;text-align:left}
@@ -77,8 +76,8 @@
 <body>
 <div class="wrap">
   <div class="top">
-    <h1>Tiffany &amp; Hitesh</h1>
-    <div class="date">June 20, 2026</div>
+    <img class="name-img" src="name-script.png" alt="Tiffany and Hitesh">
+    <img class="date-img" src="date-script.png" alt="June 20, 2026">
   </div>
 
   <div class="search">
@@ -88,7 +87,7 @@
 
   <div id="panel" style="width:100%"></div>
 
-  <div class="foot" id="foot">Can't find your name?<br>Please check with Sholeh, our wedding coordinator.</div>
+  <div class="foot" id="foot">Can't find your name?<br>Please check with our wedding coordinator Sholeh</div>
 </div>
 
 <script src="seating-data.js"></script>
@@ -97,13 +96,13 @@
   const D = window.SEATING_DATA || {tables:{}};
   const LAYOUT={
     head:{cx:180,cy:30,w:150,h:26,rect:true},
-    L1:{cx:42,cy:96}, L2:{cx:42,cy:183}, L3:{cx:42,cy:270}, L4:{cx:42,cy:357}, L5:{cx:42,cy:444},
-    L6:{cx:104,cy:139}, L7:{cx:104,cy:226}, L8:{cx:104,cy:313}, L9:{cx:104,cy:400},
-    R1:{cx:256,cy:139}, R2:{cx:256,cy:226}, R3:{cx:256,cy:313}, R4:{cx:256,cy:400},
-    R5:{cx:318,cy:96}, R6:{cx:318,cy:183}, R7:{cx:318,cy:270}, R8:{cx:318,cy:357}, R9:{cx:318,cy:444}
+    L1:{cx:32,cy:96}, L2:{cx:32,cy:183}, L3:{cx:32,cy:270}, L4:{cx:32,cy:357}, L5:{cx:32,cy:444},
+    L6:{cx:92,cy:139}, L7:{cx:92,cy:226}, L8:{cx:92,cy:313}, L9:{cx:92,cy:400},
+    R1:{cx:268,cy:139}, R2:{cx:268,cy:226}, R3:{cx:268,cy:313}, R4:{cx:268,cy:400},
+    R5:{cx:328,cy:96}, R6:{cx:328,cy:183}, R7:{cx:328,cy:270}, R8:{cx:328,cy:357}, R9:{cx:328,cy:444}
   };
   const ORDER=['head','L1','L2','L3','L4','L5','L6','L7','L8','L9','R1','R2','R3','R4','R5','R6','R7','R8','R9'];
-  const MENU_HTML='<div class="menu"><div class="maptitle">Menu</div>'+'<div class="mgroup"><div class="mlabel">Salads</div><div class="mitems">Summer Berry<br>Green Mango Chaat Salad</div></div>'+'<div class="mgroup"><div class="mlabel">Mains</div><div class="mitems">Jeera Rice<br>Dal Makhani<br>Palak Paneer<br>Baingan Bharta<br>Vegetable Tawa Fry<br>Chicken Tikka Masala<br>Garlic Naan / Lachha Paratha<br>Chicken Vesuvio<br>Vegetable Lasagna</div></div>'+'<div class="mgroup"><div class="mlabel">Sides</div><div class="mitems">Crispy Brussel Sprouts<br>Rosemary Roasted Potatoes</div></div>'+'<div class="mgroup"><div class="mlabel">Dessert</div><div class="mitems">Gulab Jamun<br>Gelato service at 7:45</div></div>'+'</div>';
+  const MENU_HTML='<div class="menu"><div class="maptitle">Menu</div>'+'<div class="mgroup"><div class="mlabel">Salads</div><div class="mitems">Summer Berry<br>Green Mango Chaat</div></div>'+'<div class="mgroup"><div class="mlabel">Mains</div><div class="mitems">Dal Makhani<br>Palak Paneer<br>Baingan Bharta<br>Vegetable Tawa Fry<br>Chicken Tikka Masala<br>Vegetable Lasagna<br>Chicken Vesuvio</div></div>'+'<div class="mgroup"><div class="mlabel">Sides</div><div class="mitems">Crispy Brussel Sprouts<br>Rosemary Roasted Potatoes</div></div>'+'<div class="mgroup"><div class="mlabel">Desserts</div><div class="mitems">Gulab Jamun<br>Gelato Cart at 7:45 PM</div></div>'+'</div>';
 
   const ALL=[];
   for(const tid in D.tables){ (D.tables[tid].guests||[]).forEach(n=> ALL.push({name:n, tid:tid})); }
@@ -140,7 +139,7 @@
            '<text x="'+L.cx+'" y="'+(L.cy+5)+'">'+tableLabel(tid)+'</text></g>';
       }
     });
-    [42,318].forEach(ex=>{ s+='<path d="M '+(ex-10)+' 500 L '+ex+' 488 L '+(ex+10)+' 500" fill="none" stroke="#47463e" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/><text class="dlabel" x="'+ex+'" y="514">ENTRANCE</text>'; });
+    [32,328].forEach(ex=>{ s+='<path d="M '+(ex-10)+' 500 L '+ex+' 488 L '+(ex+10)+' 500" fill="none" stroke="#47463e" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/><text class="dlabel" x="'+ex+'" y="514">ENTRANCE</text>'; });
     s+='</svg>';
     return s;
   }
@@ -169,8 +168,10 @@
 
   function suggestions(query){
     const nq=norm(query);
+    if(!nq) return [];
     const fn=e=> norm(e.name).split(' ')[0];
-    const subs=ALL.filter(e=> fn(e).includes(nq) || norm(e.name).startsWith(nq));
+    const ln=e=>{ const p=norm(e.name).split(' '); return p[p.length-1]; };
+    const subs=ALL.filter(e=> fn(e).startsWith(nq) || ln(e).startsWith(nq));
     subs.sort((a,b)=>{
       const aw=fn(a).startsWith(nq)?0:1, bw=fn(b).startsWith(nq)?0:1;
       return aw-bw || norm(a.name).localeCompare(norm(b.name));
@@ -207,7 +208,7 @@
         panel.innerHTML=h;
         [...panel.querySelectorAll('.dym button')].forEach((b,i)=> b.onclick=()=>showResult(dym[i]));
       } else {
-        panel.innerHTML='<div class="notfound">We couldn\'t find that name.<br>Try just your first or last name, or check with Sholeh, our wedding coordinator.</div>';
+        panel.innerHTML='<div class="notfound">We couldn\'t find that name.<br>Try just your first or last name, or check with our wedding coordinator Sholeh.</div>';
       }
     }
   }

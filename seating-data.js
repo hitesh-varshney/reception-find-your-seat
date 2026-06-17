@@ -1,5 +1,5 @@
 window.SEATING_DATA = {
- "updated": "June 13, 2026",
+ "updated": "June 16, 2026",
  "tables": {
   "head": {
    "label": "Head Table",
@@ -26,6 +26,7 @@ window.SEATING_DATA = {
     "John Jackson",
     "Zaya Amgaabaatar",
     "Michelle Gresko",
+    "Sanjeev Saravanakumar",
     "Zak Kolar"
    ]
   },
@@ -82,8 +83,7 @@ window.SEATING_DATA = {
     "Mike Briggs",
     "Aditya Kakkar",
     "Sayali Jadhav",
-    "Calvin Nguyen",
-    "Sanjeev Saravanakumar"
+    "Calvin Nguyen"
    ]
   },
   "L6": {
@@ -91,8 +91,6 @@ window.SEATING_DATA = {
    "guests": [
     "Howard Louie",
     "Kelly Louie",
-    "Jeremy Louie",
-    "Krissa Huang",
     "Joseph Louie",
     "Mary Dea",
     "Victor Louie",
@@ -110,7 +108,6 @@ window.SEATING_DATA = {
     "Diane Tse",
     "Rick Tan",
     "Linda Lau",
-    "Philip Dea Jr",
     "Elaine Tse",
     "Michael Tse",
     "Stephen Tse",
@@ -123,6 +120,7 @@ window.SEATING_DATA = {
     "Andy Tse",
     "Lucas Tse",
     "Rebecca Tse",
+    "Philip Dea Jr",
     "Candice Wong",
     "Richard Wong",
     "Vicky Wong",
@@ -132,16 +130,15 @@ window.SEATING_DATA = {
   "L9": {
    "label": "7",
    "guests": [
-    "Anand Balsekar",
-    "Leena Balsekar",
-    "Alka Gupta",
-    "Pankaj Gupta",
-    "Bhanu Gupta",
-    "Pravin Gupta",
-    "Anjali Khare",
-    "Sandeep Khare",
-    "Sonia Agarwal",
-    "Sunil Agarwal"
+    "Jeremy Louie",
+    "Krissa Huang",
+    "Ashna Gupta",
+    "Mariano Circo",
+    "Rohil Hatalkar",
+    "Sarika Gupta",
+    "Anisha Rao",
+    "Harish Kesavan",
+    "Varun Agarwal"
    ]
   },
   "R1": {
@@ -192,15 +189,16 @@ window.SEATING_DATA = {
   "R4": {
    "label": "8",
    "guests": [
-    "Amol Palekar",
-    "Simpal Palekar",
-    "Doug Heck",
-    "Nancy Heck",
-    "Hari Margabandhu",
-    "Inderjit Gurtatta",
-    "Rani Gurtatta",
-    "Rahul Meaheshwari",
-    "Shalini Meaheshwari"
+    "Anand Balsekar",
+    "Leena Balsekar",
+    "Alka Gupta",
+    "Pankaj Gupta",
+    "Bhanu Gupta",
+    "Pravin Gupta",
+    "Anjali Khare",
+    "Sandeep Khare",
+    "Sonia Agarwal",
+    "Sunil Agarwal"
    ]
   },
   "R5": {
@@ -220,12 +218,12 @@ window.SEATING_DATA = {
    "guests": [
     "James Murjani",
     "Monisha Murjani",
-    "Megan Mehta",
+    "Shirome Mehta",
+    "Rohit Murjani",
     "Michael Page",
-    "Saloni Garg",
     "Snehal Garg",
-    "Garrett Smiley",
-    "Vadini Agrawal",
+    "Kalle Solberg",
+    "Shivansh Ahuja",
     "Vinay Agrawal",
     "Shivika Ahuja"
    ]
@@ -235,25 +233,27 @@ window.SEATING_DATA = {
    "guests": [
     "Gia Varshney",
     "Tanmay Varshney",
-    "Shirome Mehta",
+    "Megan Mehta",
     "Isha Varshney",
     "Claire Mercer",
     "Rahul Varshney",
-    "Rohit Murjani",
-    "Kalle Solberg",
-    "Shivansh Ahuja"
+    "Saloni Garg",
+    "Garrett Smiley",
+    "Vadini Agrawal"
    ]
   },
   "R8": {
    "label": "16",
    "guests": [
-    "Ashna Gupta",
-    "Mariano Circo",
-    "Rohil Hatalkar",
-    "Sarika Gupta",
-    "Anisha Rao",
-    "Harish Kesavan",
-    "Varun Agarwal"
+    "Amol Palekar",
+    "Simpal Palekar",
+    "Doug Heck",
+    "Nancy Heck",
+    "Hari Margabandhu",
+    "Inderjit Gurtatta",
+    "Rani Gurtatta",
+    "Rahul Meaheshwari",
+    "Shalini Meaheshwari"
    ]
   },
   "R9": {
