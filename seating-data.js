@@ -1,18 +1,18 @@
 window.SEATING_DATA = {
- "updated": "June 16, 2026",
+ "updated": "June 19, 2026",
  "tables": {
   "head": {
    "label": "Head Table",
    "guests": [
-    "Claudia Ellebrecht",
-    "Justin Seeke",
     "Vinodhini Kesavan",
-    "Samantha Schad",
-    "Hitesh Varshney",
-    "Tiffany Louie",
-    "Andrew Karaki",
-    "Ari Alexanian",
+    "Claudia Ellebrecht",
     "Emily Dixon",
+    "Samantha Schad",
+    "Tiffany Louie",
+    "Hitesh Varshney",
+    "Justin Seeke",
+    "Ari Alexanian",
+    "Andrew Karaki",
     "Rahul Gangwani"
    ]
   },
@@ -25,8 +25,8 @@ window.SEATING_DATA = {
     "Matt McEwen",
     "John Jackson",
     "Zaya Amgaabaatar",
+    "Matt Kazmierski",
     "Michelle Gresko",
-    "Sanjeev Saravanakumar",
     "Zak Kolar"
    ]
   },
@@ -75,15 +75,12 @@ window.SEATING_DATA = {
   "L5": {
    "label": "17",
    "guests": [
-    "Blake Rankin",
-    "Megan Cicotte",
     "Emily Yoshikawa",
     "Vignesh Sarathy",
-    "Elsa Nico",
-    "Mike Briggs",
     "Aditya Kakkar",
     "Sayali Jadhav",
-    "Calvin Nguyen"
+    "Cary Zhu",
+    "Sanjeev Saravanakumar"
    ]
   },
   "L6": {
@@ -206,11 +203,13 @@ window.SEATING_DATA = {
    "guests": [
     "Amber Ulasich",
     "Andrew Atchison",
+    "Blake Rankin",
+    "Megan Cicotte",
     "Renee Seeke",
+    "Elsa Nico",
+    "Mike Briggs",
     "Nic Bartlett",
-    "Karthik Thadasina",
-    "Cary Zhu",
-    "Matt Kazmierski"
+    "Karthik Thadasina"
    ]
   },
   "R6": {
